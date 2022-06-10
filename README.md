@@ -2,7 +2,7 @@
 
 Anggota Kelompok:
 
-1.
+1. Adrian
 
 2.
 
