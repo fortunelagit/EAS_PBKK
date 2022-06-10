@@ -29,6 +29,8 @@ create table SEWA
    S_SELESAI_SEWA       datetime not null  comment '',
    S_STATUS_PEMBAYARAN  bool not null  comment '',
    S_STATUS_SEWA        bool not null  comment '',
+   UPDATED_AT           datetime comment '',
+   CREATED_AT           datetime comment '',
    primary key (S_ID)
 );
 
