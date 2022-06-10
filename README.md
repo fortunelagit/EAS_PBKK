@@ -1,7 +1,7 @@
 # EAS_PBKK
 
 Anggota Kelompok:
-1.
-2.
-3.
+1. Adrian
+2. Khaela
+3. Ihsan
 4.
