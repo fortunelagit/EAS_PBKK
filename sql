@@ -14,6 +14,7 @@ create table PEMINJAM
    P_EMAIL              national varchar(20) not null  comment '',
    P_NOTEL              varchar(20)  comment '',
    P_PASSWORD           varchar(20) not null  comment '',
+   P_TIPE               varchar(10) not null comment '',
    primary key (P_ID)
 );
 
