@@ -3,6 +3,7 @@
 use App\Http\Controllers\loginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeController;
+use App\Http\Controllers\mainController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,4 +20,4 @@ use App\Http\Controllers\homeController;
 });*/
 Route::get('/', [homeController::class,'index']);
 Route::get('login',[loginController::class,'index'])->name('login');
-Route::get('home',[mainController::class,'index'])->name('home');
+Route::get('main',[mainController::class,'index'])->name('home');
