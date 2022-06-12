@@ -18,4 +18,4 @@ use App\Http\Controllers\mainController;
     return view('welcome');
 });*/
 Route::get('/', [mainController::class,'index']);
-Route::get('login',[loginController::class,'index']);
+Route::get('login',[loginController::class,'index'])->name('login');;

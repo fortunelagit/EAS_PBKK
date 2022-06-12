@@ -42,7 +42,7 @@
                             <a class="nav-link text-black ">Catalog</a>
                         </li>
                         <li>
-                            <p class="nav-link text-black ">Login</p>
+                            <!--<p class="nav-link text-black ">Login</p>-->
                             @if (Route::has('login'))
                                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                                     @auth
