@@ -17,5 +17,5 @@ use App\Http\Controllers\mainController;
 /*Route::get('/', function () {
     return view('welcome');
 });*/
-Route::get('/', [mainController::class,'index']);
+Route::get('/', [homeController::class,'index']);
 Route::get('login',[loginController::class,'index'])->name('login');;
