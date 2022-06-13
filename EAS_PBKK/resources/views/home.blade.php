@@ -30,7 +30,7 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between text-black">
                     <ul class="navbar-nav flex-grow-1 d-flex justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link text-black" >Home</a>
+                            <a href="{{ url('/main') }}" class="nav-link" >Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-black" >About</a>
@@ -42,13 +42,13 @@
                             <a class="nav-link text-black ">Catalog</a>
                         </li>
                         <li>
-                            <!--<p class="nav-link text-black ">Login</p>-->
+                            <!--<p>Login</p>-->
                             @if (Route::has('login'))
-                                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                                <!--<div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">-->
                                     @auth
-                                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
+                                        <a href="{{ url('/home') }}" class="nav-link ">Home</a>
                                     @else
-                                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+                                        <a href="{{ route('login') }}" class="nav-link">Log in</a>
 
                                         @if (Route::has('register'))
                                             <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
