@@ -84,12 +84,12 @@
                     <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
                 </div>
                 <div class="form-group">
-                    <label for="InputContact">Enter Telephone Number</label>
-                    <input type="contact" class="form-control" id="InputContact" placeholder="Contact">
+                    <label for="InputContact">Contact Number</label>
+                    <input type="contact" class="form-control" id="InputContact" placeholder="Enter Contact Number">
                 </div>
                 <div class="form-group">
                     <label for="InputPassword">Password</label>
-                    <input type="password" class="form-control" id="InputPassword" aria-describedby="passwordHelp" placeholder="Password">
+                    <input type="password" class="form-control" id="InputPassword" aria-describedby="passwordHelp" placeholder="Enter Password">
                     <small id="passwordHelp" class="form-text text-muted">Password needs to consist of at least 8 number or character.</small>
                 </div>
                 <br></br>
