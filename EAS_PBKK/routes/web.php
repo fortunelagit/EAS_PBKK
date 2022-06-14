@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeController;
 use App\Http\Controllers\mainController;
 use App\Http\Controllers\adminController;
+use App\Http\Controllers\registerController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,4 +23,6 @@ use App\Http\Controllers\adminController;
 Route::get('/', [homeController::class,'index']);
 Route::get('login',[loginController::class,'index'])->name('login');
 Route::get('main',[mainController::class,'index'])->name('home');
+Route::get('register',[registerController::class,'index'])->name('register');
 Route::get('admin',[adminController::class,'index'])->name('admin');
+Route::post('submit', [loginController::class,'submit']);
