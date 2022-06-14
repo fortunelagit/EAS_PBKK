@@ -30,31 +30,19 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between text-black">
                     <ul class="navbar-nav flex-grow-1 d-flex justify-content-end">
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-black" >Home</a>
+                            <a href="#" class="nav-link" >Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-black" >About</a>
+                            <a href="#" class="nav-link  text-black" >About</a>
                         </li>
                           <li class="nav-item">
-                            <a href="#" class="nav-link text-black ">Review</a>
+                            <a href="#" class="nav-link  text-black">Review</a>
                         </li>
                          <li class="nav-item">
-                            <a href="#" class="nav-link text-black ">Catalog</a>
+                            <a href="#" class="nav-link text-black">Catalog</a>
                         </li>
                         <li>
-                            @if (Route::has('login'))
-                                <div class="">
-                                    @auth
-                                        <a href="{{ url('/home') }}" class="nav-link text-black "">Home</a>
-                                    @else
-                                        <a href="{{ route('login') }}" class="nav-link text-black ">Log in</a>
-
-                                        @if (Route::has('register'))
-                                            <a href="{{ route('register') }}" class="nav-link text-black ">Register</a>
-                                        @endif
-                                    @endauth
-                                </div>
-                            @endif
+                            <a href="{{ route('register') }}" class="nav-link">Register</a>
                         </li>
                         
                     </ul>

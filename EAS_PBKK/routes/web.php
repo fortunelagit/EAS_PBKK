@@ -20,7 +20,7 @@ use App\Http\Controllers\registerController;
 /*Route::get('/', function () {
     return view('welcome');
 });*/
-Route::get('/', [homeController::class,'index']);
+Route::get('/', [homeController::class,'index'])->name('main');
 Route::get('login',[loginController::class,'index'])->name('login');
 Route::get('main',[mainController::class,'index'])->name('home');
 Route::get('register',[registerController::class,'index'])->name('register');
