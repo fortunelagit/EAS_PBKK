@@ -33,7 +33,7 @@
                             <a href="{{route('main')}}" class="nav-link" >Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black" >About</a>
+                            <a href="{{route('about')}}" class="nav-link" >About</a>
                         </li>
                           <li class="nav-item">
                             <a class="nav-link text-black ">Review</a>
