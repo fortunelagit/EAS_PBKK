@@ -19,7 +19,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-white border-bottom box-shadow mb-3">
-            <a class="navbar-brand">
+            <a href="{{ route('main') }}" class="navbar-brand">
                 <img src="css/images/logo.png" class="logo h-75 w-75" alt="logo">
             </a>
             <div class="container-fluid ">
@@ -30,7 +30,7 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between text-black">
                     <ul class="navbar-nav flex-grow-1 d-flex justify-content-end">
                         <li class="nav-item">
-                            <a href="{{ url('/main') }}" class="nav-link" >Home</a>
+                            <a href="{{route('main')}}" class="nav-link" >Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-black" >About</a>
