@@ -42,16 +42,15 @@
                             <a href="#" class="nav-link text-black ">Catalog</a>
                         </li>
                         <li>
-                            <p class="nav-link text-black ">Login</p>
                             @if (Route::has('login'))
-                                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                                <div class="">
                                     @auth
-                                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 nav-link text-black">Home</a>
+                                        <a href="{{ url('/home') }}" class="nav-link text-black "">Home</a>
                                     @else
-                                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+                                        <a href="{{ route('login') }}" class="nav-link text-black ">Log in</a>
 
                                         @if (Route::has('register'))
-                                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline nav-link text-black">Register</a>
+                                            <a href="{{ route('register') }}" class="nav-link text-black ">Register</a>
                                         @endif
                                     @endauth
                                 </div>
@@ -75,25 +74,19 @@
     <div class="col-md-4 d-flex t-1 b-1">
         <section>
             <form>
+                <h4 class="">Please login here.</h4>
                 <div class="form-group">
                     <label for="InputUsername">Username</label>
                     <input type="username" class="form-control" id="InputUsername" placeholder="Enter username">
-                </div>
-                <div class="form-group">
-                    <label for="InputEmail">Email address</label>
-                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                    <label for="InputContact">Contact Number</label>
-                    <input type="contact" class="form-control" id="InputContact" placeholder="Enter Contact Number">
-                </div>
+                </div> <br>
                 <div class="form-group">
                     <label for="InputPassword">Password</label>
-                    <input type="password" class="form-control" id="InputPassword" aria-describedby="passwordHelp" placeholder="Enter Password">
-                    <small id="passwordHelp" class="form-text text-muted">Password needs to consist of at least 8 number or character.</small>
-                </div>
-                <br></br>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                    <input type="password" class="form-control" id="InputPassword"  placeholder="Enter Password">
+                </div> 
+                <br>
+                <button type="submit " class="btn btn-primary">Submit</button> <br>
+                <small id="noAccountHelp" class="form-text text-muted">Don't have an account?</small>
+                <small> <a href="{{ url('/register') }}" class="text-decoration-none">Register here.</a> </small>
             </form>
         </section>
     </div>
