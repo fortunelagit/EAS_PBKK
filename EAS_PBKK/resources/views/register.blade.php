@@ -58,22 +58,23 @@
     <div class="row d-flex flex-row justify-content-center">
     <div class="col-md-4 d-flex t-1 b-1">
         <section>
-            <form>
+            <form name="register-form" id="register-form" method="post" action="{{url('submit')}}">
+                @csrf
                 <div class="form-group">
                     <label for="InputUsername">Username</label>
-                    <input type="username" class="form-control" id="InputUsername" placeholder="Enter username">
+                    <input type="nama" class="form-control" id="InputUsername" name="nama" placeholder="Enter username">
                 </div> <br>
                 <div class="form-group">
                     <label for="InputEmail">Email address</label>
-                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                    <input type="email" class="form-control" id="InputEmail" name="email" aria-describedby="emailHelp" placeholder="Enter email">
                 </div> <br>
                 <div class="form-group">
                     <label for="InputContact">Contact Number</label>
-                    <input type="contact" class="form-control" id="InputContact" placeholder="Enter Contact Number">
+                    <input type="notel" class="form-control" id="InputContact" name="notel" placeholder="Enter Contact Number">
                 </div> <br>
                 <div class="form-group">
                     <label for="InputPassword">Password</label>
-                    <input type="password" class="form-control" id="InputPassword" aria-describedby="passwordHelp" placeholder="Enter Password">
+                    <input type="password" class="form-control" id="InputPassword" name="password" aria-describedby="passwordHelp" placeholder="Enter Password">
                     <small id="passwordHelp" class="form-text text-muted">Password needs to consist of at least 8 number or character.</small>
                 </div> 
                 <br>

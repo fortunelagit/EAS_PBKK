@@ -27,4 +27,4 @@ Route::get('main',[mainController::class,'index'])->name('home');
 Route::get('register',[registerController::class,'index'])->name('register');
 Route::get('admin',[adminController::class,'index'])->name('admin');
 Route::get('about',[aboutController::class,'index'])->name('about');
-Route::post('submit', [loginController::class,'submit']);
+Route::post('submit', [registerController::class,'submit']);
