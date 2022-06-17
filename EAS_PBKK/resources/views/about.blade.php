@@ -60,7 +60,7 @@
             <div class="contact">
             <h3>Contact Us</h3>
             <i class="fas fa-phone-square-alt"></i></span> +62 812 3456 7890</br>
-            <i class="fas fa-envelope"></i></span> contact@cateringlarissa.com</br>
+            <i class="fas fa-envelope"></i></span> contact@simplebooking.com</br>
             </div>
         </div>
     </div>
