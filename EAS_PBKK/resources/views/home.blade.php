@@ -68,7 +68,7 @@
                     <h1 class="display-3 h-color">Melayani Booking</h1>
                     <p class="lead">Kini booking hotel dan gedung lebih mudah dengan Simple Booking</p>
                     
-                    <a href="" class="btn btn-color slide-btn btn-lg">Sewa Sekarang</a>
+                    <a href="{{ route('register') }}" class="btn btn-color slide-btn btn-lg">Sewa Sekarang</a>
                     
                 </div>
               </div>
@@ -91,7 +91,7 @@
                 <div class="carousel-caption d-none d-sm-block  mb-5">
                     <h1 class="display-3 h-color">Punya pertanyaan?</h1>
                     <p class="lead">Tanyakan kepada admin kami</p>
-                    <a href="" class="btn btn-color slide-btn btn-lg">Bantuan</a>
+                    <a href="{{route('about')}}" class="btn btn-color slide-btn btn-lg">Bantuan</a>
                     
                 </div>
               </div>
