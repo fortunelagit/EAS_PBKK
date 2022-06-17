@@ -33,7 +33,7 @@
                             <a href="{{route('main')}}" class="nav-link" >Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{route('about')}}" class="nav-link active" >About</a>
+                            <a class="nav-link active" >About</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('login') }}" class="nav-link">Log in</a>
