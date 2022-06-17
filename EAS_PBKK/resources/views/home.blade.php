@@ -30,12 +30,14 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between text-black">
                     <ul class="navbar-nav flex-grow-1 d-flex justify-content-end mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-black" >Home</a>
+                            <a class="nav-link active" >Home</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{route('about')}}" class="nav-link" >About</a>
                         </li>
-
+                         <li class="nav-item">
+                            <a href="#" class="nav-link">Catalog</a>
+                        </li>
                         <li class="nav-item">
                             <a href="{{ route('login') }}" class="nav-link">Log in</a>
                         </li>
