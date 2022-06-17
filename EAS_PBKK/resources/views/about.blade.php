@@ -48,6 +48,7 @@
             </div>
         </nav>
     </header>
+    <br>
     <div class="container d-flex flex-column align-items-center">
         <div><h1>About Simple Booking</h1></div>
         <div class="about-logo"><img src="css/images/logo.png" alt="Logo"></div>
