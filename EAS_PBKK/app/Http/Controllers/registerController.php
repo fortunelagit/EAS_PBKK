@@ -25,6 +25,6 @@ class registerController extends Controller
          $register->P_notel = $request->notel;
          $register->P_password = $request->password;
          $register->save();
-         return redirect('register')->with('status', 'Account successfully registered.');
+         return redirect()->route('login');
     }
 }
