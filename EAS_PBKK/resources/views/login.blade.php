@@ -28,17 +28,16 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between text-black">
-                    <ul class="navbar-nav flex-grow-1 d-flex justify-content-end">
+                    <ul class="navbar-nav flex-grow-1 d-flex justify-content-end mr-auto">
                         <li class="nav-item">
-                            <a href="{{route('home')}}" class="nav-link" >Home</a>
+                            <a href="{{route('main')}}" class="nav-link" >Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('about') }}" class="nav-link" >About</a>
+                            <a href="{{route('about')}}" class="nav-link" >About</a>
                         </li>
-                        <li>
+                        <li class="nav-item">
                             <a href="{{ route('register') }}" class="nav-link">Register</a>
                         </li>
-                        
                     </ul>
                     
 
