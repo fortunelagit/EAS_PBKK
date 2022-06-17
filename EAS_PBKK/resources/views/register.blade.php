@@ -18,8 +18,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-white border-bottom box-shadow mb-3">
-            <a href="{{ route('home') }}" lass="navbar-brand">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="{{ route('main') }}" class="navbar-brand">
                 <img src="css/images/logo.png" class="logo h-75 w-75" alt="logo">
             </a>
             <div class="container-fluid ">
@@ -36,7 +36,7 @@
                             <a href="{{route('about')}}" class="nav-link" >About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('login') }}" class="nav-link">Log in</a>
+                            <a href="{{ route('login') }}" class="nav-link">Login</a>
                         </li>
                     </ul>
                     
