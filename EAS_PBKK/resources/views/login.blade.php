@@ -55,7 +55,6 @@
     <div class="col-md-4 d-flex t-1 b-1">
         <section>
             <form>
-                <h4 class="">Please login here.</h4>
                 <div class="form-group">
                     <label for="InputUsername">Username</label>
                     <input type="username" class="form-control" id="InputUsername" placeholder="Enter username">
