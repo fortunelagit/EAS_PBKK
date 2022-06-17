@@ -48,18 +48,16 @@
             </div>
         </nav>
     </header>
-    <div class="container justify-content-center">
+    <div class="container d-flex flex-column align-items-center">
         <div><h1>About Simple Booking</h1></div>
         <div class="about-logo"><img src="css/images/logo.png" alt="Logo"></div>
-        <div class="container">
             <div class="about">
                 <p>Sebuah website yang membantu proses booking hotel dan bangunan untuk acara.</p>
-                <div class="contact">
-                    <h3>Contact Us</h3>
-                    <i class="fas fa-phone-square-alt"></i></span> +62 812 3456 7890</br>
-                    <i class="fas fa-envelope"></i></span> contact@simplebooking.com</br>
-                </div>
             </div>
+        <div class="contact">
+                <h3>Contact Us</h3>
+                <i class="fas fa-phone-square-alt"></i></span> +62 812 3456 7890</br>
+                <i class="fas fa-envelope"></i></span> contact@simplebooking.com</br>
         </div>
     </div>
 
