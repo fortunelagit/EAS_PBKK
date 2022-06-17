@@ -68,7 +68,7 @@
                     <h1 class="display-3 h-color">Melayani Booking</h1>
                     <p class="lead">Kini booking hotel dan gedung lebih mudah dengan Simple Booking</p>
                     
-                    <a href="{{ route('register') }}" class="btn btn-color slide-btn btn-lg">Sewa Sekarang</a>
+                    <a href="{{ route('register') }}" class="btn btn-color slide-btn btn-lg">Daftar Sekarang</a>
                     
                 </div>
               </div>
