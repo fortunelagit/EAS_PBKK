@@ -21,9 +21,9 @@ use App\Http\Controllers\aboutController;
 /*Route::get('/', function () {
     return view('welcome');
 });*/
-Route::get('/', [homeController::class,'index'])->name('main');
+Route::get('/', [homeController::class,'index'])->name('home');
 Route::get('login',[loginController::class,'index'])->name('login');
-Route::get('main',[mainController::class,'index'])->name('home');
+Route::get('main',[mainController::class,'index'])->name('main');
 Route::get('register',[registerController::class,'index'])->name('register');
 Route::get('admin',[adminController::class,'index'])->name('admin');
 Route::get('about',[aboutController::class,'index'])->name('about');

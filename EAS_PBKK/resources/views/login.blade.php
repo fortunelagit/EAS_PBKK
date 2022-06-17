@@ -30,7 +30,7 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between text-black">
                     <ul class="navbar-nav flex-grow-1 d-flex justify-content-end">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" >Home</a>
+                            <a href="{{route('home')}}" class="nav-link" >Home</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('about') }}" class="nav-link" >About</a>
