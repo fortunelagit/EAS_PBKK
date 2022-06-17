@@ -35,9 +35,6 @@
                         <li class="nav-item">
                             <a href="{{ route('about') }}" class="nav-link" >About</a>
                         </li>
-                         <li class="nav-item">
-                            <a href="#" class="nav-link text-black ">Catalog</a>
-                        </li>
                         <li>   
                             <a href="{{ route('login') }}" class="nav-link">Log in</a>
                         </li>
