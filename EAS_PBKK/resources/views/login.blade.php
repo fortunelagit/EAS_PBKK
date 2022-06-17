@@ -18,7 +18,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a href="{{ route('main') }}" class="navbar-brand">
                 <img src="css/images/logo.png" class="logo h-75 w-75" alt="logo">
             </a>
