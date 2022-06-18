@@ -53,7 +53,7 @@
         <div><h1>About Simple Booking</h1></div>
         <div class="about-logo"><img src="css/images/logo.png" alt="Logo"></div>
             <div class="about">
-                <p>Sebuah website yang membantu proses booking hotel dan bangunan untuk acara.</p>
+                <p>Sebuah website yang membantu proses reservasi hotel dan ruangan untuk acara.</p>
             </div>
         <div class="contact">
                 <h3>Contact Us</h3>
