@@ -26,7 +26,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a href="{{ route('main') }}" class="navbar-brand">
+            <a href="{{ route('home') }}" class="navbar-brand">
                 <img src="css/images/logo.png" class="logo h-75 w-75" alt="logo">
             </a>
             <div class="container-fluid ">
