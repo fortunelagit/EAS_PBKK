@@ -33,6 +33,9 @@
                             <a href="{{route('home')}}" class="nav-link" >Home</a>
                         </li>
                         <li class="nav-item">
+                            <a href="{{ route('main') }}" class="nav-link">Booking</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="{{route('about')}}" class="nav-link" >About</a>
                         </li>
                         <li class="nav-item">
