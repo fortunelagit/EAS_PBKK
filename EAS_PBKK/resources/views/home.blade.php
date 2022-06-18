@@ -66,7 +66,7 @@
               <div class="container">
                 <div class="carousel-caption d-none d-sm-block mb-5">
                     <h1 class="display-3 h-color">Melayani Booking</h1>
-                    <p class="lead">Kini booking hotel dan gedung lebih mudah dengan Simple Booking</p>
+                    <p class="lead">Booking hotel dan gedung lebih mudah dengan Simple Booking</p>
                     
                     <a href="{{ route('register') }}" class="btn btn-color slide-btn btn-lg">Daftar Sekarang</a>
                     
@@ -77,9 +77,9 @@
             <div class="carousel-item carousel-image-2">
               <div class="container">
                 <div class="carousel-caption d-none d-sm-block mb-5">
-                    <h1 class="display-3 h-color">Jaringan Yang Luas</h1>
-                    <p class="lead">Memiliki jangkauan ke seluruh Indonesia</p>
-                    <a href="" class="btn btn-color slide-btn btn-lg">Lihat Katalog</a>
+                    <h1 class="display-3 h-color">Pilihan Yang Beragam</h1>
+                    <p class="lead">Sekarang proses booking lebih mudah dan fleksibel</p>
+                    <a href="" class="btn btn-color slide-btn btn-lg">Mulai Booking</a>
                     
 
                 </div>
