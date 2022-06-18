@@ -61,59 +61,7 @@
         </main>
     </div>
 
-    <section id="main">
-        <div id="Carousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#Carousel" data-slide-to="1"></li>
-            <li data-target="#Carousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item carousel-image-1 active">
-              <div class="container">
-                <div class="carousel-caption d-none d-sm-block mb-5">
-                    <h1 class="display-3 h-color">Melayani Booking</h1>
-                    <p class="lead">Kini booking hotel dan gedung lebih mudah dengan Simple Booking</p>
-                    
-                    <a href="{{ route('register') }}" class="btn btn-color slide-btn btn-lg">Daftar Sekarang</a>
-                    
-                </div>
-              </div>
-            </div>
     
-            <div class="carousel-item carousel-image-2">
-              <div class="container">
-                <div class="carousel-caption d-none d-sm-block mb-5">
-                    <h1 class="display-3 h-color">Jaringan Yang Luas</h1>
-                    <p class="lead">Memiliki jangkauan ke seluruh Indonesia</p>
-                    <a href="" class="btn btn-color slide-btn btn-lg">Lihat Katalog</a>
-                    
-
-                </div>
-              </div>
-            </div>
-    
-            <div class="carousel-item carousel-image-3">
-              <div class="container">
-                <div class="carousel-caption d-none d-sm-block  mb-5">
-                    <h1 class="display-3 h-color">Punya pertanyaan?</h1>
-                    <p class="lead">Tanyakan kepada admin kami</p>
-                    <a href="{{route('about')}}" class="btn btn-color slide-btn btn-lg">Bantuan</a>
-                    
-                </div>
-              </div>
-            </div>
-        </div>
-        
-    
-        <a href="#Carousel" data-slide="prev" class="carousel-control-prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-    
-        <a href="#Carousel" data-slide="next" class="carousel-control-next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </section>
     <br><br>
     <form action="" class="dp-10">
         <h4 class="form-row container d-flex flex-column col-md-5">Formulir Booking</h4><br>
