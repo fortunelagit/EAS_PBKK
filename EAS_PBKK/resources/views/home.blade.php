@@ -79,7 +79,7 @@
                 <div class="carousel-caption d-none d-sm-block mb-5">
                     <h1 class="display-3 h-color">Pilihan Yang Beragam</h1>
                     <p class="lead">Sekarang proses booking lebih mudah dan fleksibel</p>
-                    <a href="" class="btn btn-color slide-btn btn-lg">Mulai Booking</a>
+                    <a href="{{ route('main') }}" class="btn btn-color slide-btn btn-lg">Mulai Booking</a>
                     
 
                 </div>
